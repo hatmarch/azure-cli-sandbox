@@ -2,7 +2,7 @@
 	"name": "Azure cli ",
 	"dockerFile": "Dockerfile",
 	"runArgs": [
-		"-v","${HOME}/.ssh:/root/.ssh"
+		"-v","${env:HOME}/.ssh:/root/.ssh"
 	],
 
 	// Use 'settings' to set *default* container specific settings.json values on container create. 
